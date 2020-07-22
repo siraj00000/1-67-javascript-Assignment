@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment chap 1-67</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- chapter 49-52 -->
+    <!-- task no 01 -->
+    <!-- sign up form -->
+    <h1>Sign up form</h1>
+    <label for='fullName'>Full Name</label>
+    <input type="text" id="fullName" name="fullname" placeholder="fullName" maxlength="35"><br>
+    <label for='Password'>Password</label>
+    <input type="password" id="password" placeholder="Enter Password"><br>
+    <label for='age'>Age</label>
+    <input type="number" id="age" name="age" placeholder="age"><br>
+    <label for='Email'>Email</label>
+    <input type="email" name="email" id="stuemail" placeholder="email"><br>
+    <button onclick="submit()">submit</button>
+    <!-- task no 02 -->
+    <h4 id="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae eos eum dolorum reprehenderit,
+        explicabo ullam rem cum facere est officia quod libero quas rerum dolorem aliquam. Atque ut omnis cumque?</h4>
+    <h4 id="para">Lorem ipsum dolor sit amet consectetur <a href="javascript:void(0)" onclick="readMore()">read more</a>
+    </h4>
+    <!-- task no 3 -->
+    <h1>Student Detail Form</h1>
+
+    <!-- student submit form -->
+
+    <label for="fullname">Full name</label>
+    <!--full name-->
+    <input type="text" id="fullN"> <br>
+
+    <label for="email">Email</label>
+    <!--email-->
+    <input type="email" name="email" id="E-mail"><br>
+
+    <label for="percentage">Percentage</label>
+    <!--student percentage-->
+    <input type="number" id="percent"><br>
+    <button onclick="formValues()">submit</button>
+
+    <table border="1">
+
+
+        <tr>
+            <th>S.No</th>
+            <th>name</th>
+            <th>student Email</th>
+            <th>Student percentage</th>
+
+        </tr>
+        <tr id="row1">
+            <td>1</td>
+            <td></td>
+            <th></th>
+            <th></th>
+            <th><button onclick="Geeks()">DELETE</button>
+            </th>
+        </tr>
+        <tr id="row2">
+            <td>2</td>
+            <td></td>
+            <th></th>
+            <th></th>
+            <th><button onclick="Geeks1()">DELETE</button>
+            </th>
+        <tr id="row3">
+            <td>3</td>
+            <td></td>
+            <th></th>
+            <th></th>
+            <th><button onclick="Geeks2()">DELETE</button>
+            </th>
+    </table>
+
+
+    <!-- chapter 58-67 -->
+    <!-- task no 1  -->
+    <div>
+        <h1> DOM </h1>
+        <div id='form-content' class='content'>
+            <label for='first-name'>First Name</label>
+            <input type="text" id='first-name' />
+            <label for="last-name">Last Name</label>
+            <input type="text" id='last-name' />
+            <label for="email">Email</label>
+            <input type="text" id='email' />
+        </div>
+        <div id='main-content' class='content'>
+            <p class='render'> First Name : Alex</p>
+            <p class='render' id='lastName'>Last Name: Bank</p>
+            <p class='render'> Email : alexbank@example.com</p>
+            <p class='render'> Country : Pakistan </p>
+            <p class='render'> contact : +92 300 1234567</p>
+        </div>
+    </div>
+
+    <br>
+
+
+    <div>
+        <label for="fullname">Full name</label>
+        <!--full name-->
+        <input type="text" id="fullNamestu"> <br>
+
+        <label for="email">Email</label>
+        <!--email-->
+        <input type="email" name="email" id="E-mail-stu"><br>
+
+        <label for="percentage">Percentage</label>
+        <!--student percentage-->
+        <input type="text" id="percentofstu"><br>
+        <button id="submt" onclick="submitForm()">Submit</button>
+
+        <table id="tableform" border="1">
+            <h1>student form</h1>
+        </table>
+
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
